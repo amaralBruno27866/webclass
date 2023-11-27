@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB 222 W#6</title>
+</head>
+<body>
+    <h1>Week 6: Using JavaScript in HTML</h1>
+    <!--
+        Insert inline JavaScript code
+    -->
+    <h3 
+    onclick="alert('Hi there!!!')"
+    onmouseover="console.log('Bruno')"
+    onmouseout="console.log('Bay')"
+    >
+        Inline JavaScript
+    </h3>
+
+    <!--
+        Insert internal JavaScript code
+    -->
+    <script>
+        var name = prompt("Whats is your name?");
+        alert('Hello '+ name);
+    </script>
+
+    <!--
+        Insert external JavaScript code
+    -->
+    <script src="./js/myscript.js">
+
+    </script>
+    <a href="./w6example2.html">2</a>
+</body>
+</html>
